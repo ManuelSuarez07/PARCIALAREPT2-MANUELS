@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Conjetura de Collat</title>
+</head>
+<body>
+<h1>Conjetura de Collat</h1>
+
+<div>
+    <label>Ingrese un Número:</label>
+    <input type="number" id="number" placeholder="Ejemplo: 10" min="0">
+</div>
+
+<button onclick="calculateSequence()">Calcular Conjetura</button>
+
+<div id="result"></div>
+
+<script>
+    function calculateSequence() {
+        const number = document.getElementById('number').value;
+
+        if (!number || number < 0) {
+            document.getElementById('result').innerHTML = 'Por favor ingrese un número válido (≥ 0)';
+            return;
+        }
+
+        const url = `/collatz?n=${encodeURIComponent(number)}`;
+
+        fetch(url)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error en la respuesta del servidor');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const resultHTML = `
+                        <h3>Resultado</h3>
+                        <div>Operación: ${data.operation}</div>
+                        <div>Entrada: ${data.input}</div>
+                        <div>Secuencia: ${data.output}</div>
+                    `;
+                document.getElementById('result').innerHTML = resultHTML;
+            })
+            .catch(error => {
+                document.getElementById('result').innerHTML = 'Error: ' + error.message;
+            });
+    }
+</script>
+</body>
+</html>
