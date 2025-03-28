@@ -27,16 +27,16 @@ Por ejemplo, dato el número k=13
 git init
 ```
 ```bash
-git Clone
+git Clone https://github.com/ManuelSuarez07/PARCIALAREPT2-MANUELS.git
 ```
 ```bash
-cd
+cd PARCIALAREPT2-MANUELS-main
 ```
 ### En un terminal para cada cosa (Uno para Proxy, otro para Collatz)
 
 * Proxy:
 ```bash
-cd
+cd proxy
 ```
 ```bash
 mvn clean install
@@ -46,7 +46,7 @@ mvn spring-boot:run
 ```
 * Collatz:
 ```bash
-cd
+cd collatz
 ```
 ```bash
 mvn clean install
