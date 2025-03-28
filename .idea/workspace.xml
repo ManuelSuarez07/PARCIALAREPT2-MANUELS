@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3566a04f-8d7d-400b-b654-9178b1a04562" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collatz/src/main/java/com/eci/CollatzServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collatz/src/main/java/com/eci/CollatzServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/src/main/java/com/eci/ProxyServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/main/java/com/eci/ProxyServiceApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="3566a04f-8d7d-400b-b654-9178b1a04562" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
