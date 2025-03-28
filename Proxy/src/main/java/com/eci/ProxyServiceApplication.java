@@ -14,7 +14,7 @@ public class ProxyServiceApplication {
 
     private final AtomicInteger counter = new AtomicInteger(0);
     private final String[] backendUrls = {
-            System.getenv().getOrDefault("BACKEND1", "http://localhost:8081")
+            System.getenv().getOrDefault("BACKEND1", "http://ec2-52-91-70-75.compute-1.amazonaws.com:8081")
     };
 
     private final RestTemplate restTemplate = new RestTemplate();
@@ -30,5 +30,4 @@ public class ProxyServiceApplication {
         return restTemplate.getForObject(backendUrl, String.class);
     }
 }
-
 
