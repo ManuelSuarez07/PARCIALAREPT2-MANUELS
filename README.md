@@ -61,13 +61,54 @@ mvn spring-boot:run
 ```bash
 http://localhost:8080/
 ```
-[Imagen del proxy](images/img1.png)
+![Imagen del proxy](images/img1.png)
 
 * Para ingresar directamente al calculo y obtener la respuesta en formato JSON:
 
 ```bash
 http://localhost:8081/collatz?n=13
 ```
-[Imagen del backend de Collatz](images/img2.png)
+![Imagen del backend de Collatz](images/img2.png)
 
 ## Implementacion en AWS
+
+### Imagenes del paso a paso para implementarlo en AWS
+
+1.  ![Implementación en AWS](images/aws1.png)
+
+2.  ![Implementación en AWS](images/aws2.png)
+
+3.  ![Implementación en AWS](images/aws3.png)
+
+4.  ![Implementación en AWS](images/aws4.png)
+
+5.  ![Implementación en AWS](images/aws5.png)
+
+6.  ![Implementación en AWS](images/aws6.png)
+
+7.  ![Implementación en AWS](images/aws7.png)
+
+8.  ![Implementación en AWS](images/aws8.png)
+
+9.  ![Implementación en AWS](images/aws9.png)
+
+10. ![Implementación en AWS](images/aws10.png)
+
+11. ![Implementación en AWS](images/aws11.png)
+
+12. ![Implementación en AWS](images/aws12.png)
+
+13. ![Implementación en AWS](images/aws13.png)
+
+14. ![Implementación en AWS](images/aws14.png)
+
+15. ![Implementación en AWS](images/aws15.png)
+
+16. ![Implementación en AWS](images/aws16.png)
+
+### Video de Despliegue en AWS
+
+[![Video de Despliegue](https://img.youtube.com/vi/u7r9eu_UxGI/maxresdefault.jpg)](https://youtu.be/u7r9eu_UxGI)
+
+## AUTOR
+[Manuel Suarez](https://github.com/ManuelSuarez07) 
